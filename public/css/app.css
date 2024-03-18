@@ -1,0 +1,33 @@
+/* public/css/app.css */
+body {
+    background: white;
+    background-size: cover;
+}
+
+header {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.search-panel {
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.navbar {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.navbar-brand {
+    font-size: 1.5rem; /* Adjust the size as needed */
+    color: #fff; /* Change the color if needed */
+    /* Add any additional styling you want for the brand */
+}
+
+/* Ensure the rest of your content is below the navbar */
+.content-below-navbar {
+    margin-top: 70px; /* Adjust the margin-top value to the height of your navbar */
+}
+/* More custom styles for your buttons, inputs, etc. */

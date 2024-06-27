@@ -124,8 +124,8 @@
 </div>
 <form action="{{ route('search') }}" method="GET" class="search-box">
     <div class="row">
-        <input type="date" name="departure_date" placeholder="Departure" required>
-        <input type="date" name="return_date" placeholder="Return" required>
+        <input type="text" id="departure_date" name="departure_date" placeholder="Departure" onfocus="(this.type='date')" required>
+        <input type="text" id="return_date" name="return_date" placeholder="Return" onfocus="(this.type='date')" required>
     </div>
     <div class="row">
         <input type="text" name="origin" placeholder="Origin" required>

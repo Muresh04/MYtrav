@@ -38,7 +38,7 @@ app.post('/scrape', async (req, res) => {
 
     try {
         browser = await puppeteer.launch({
-            headless: false,
+            headless: true, //hide
             userDataDir: tmpDir
         });
         const page = await browser.newPage();

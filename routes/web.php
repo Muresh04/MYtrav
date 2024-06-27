@@ -8,7 +8,9 @@ use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\ReviewController;
 
 Route::get('/welcome', [App\Http\Controllers\WelcomeController::class, 'index'])->name('welcome');
-
+Route::get('/', function(){
+    return redirect()->route('welcome');
+});
 Route::get('/ktm-live-schedule', [App\Http\Controllers\KtmController::class, 'show'])->name('ktm.live_schedule');
 
 
